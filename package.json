@@ -1,0 +1,24 @@
+{
+  "name": "claw-love",
+  "version": "1.0.0",
+  "description": "A VitePress site for the Open Claw romance story.",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huauauaa/claw-love.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Huauauaa/claw-love/issues"
+  },
+  "homepage": "https://github.com/Huauauaa/claw-love#readme",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
