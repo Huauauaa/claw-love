@@ -4,7 +4,7 @@ export default defineConfig({
   lang: "zh-CN",
   title: "《抓到你了》",
   description: "Open Claw 结缘的程序员爱情故事",
-  base: "/claw-love/",
+  base: process.env.NODE_ENV === "production" ? "/claw-love/" : "/",
   lastUpdated: true,
   themeConfig: {
     nav: [
